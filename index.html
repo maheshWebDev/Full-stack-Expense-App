@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Expense Tracker</title>
+        </head>
+<body>
+    <header style="color: rgb(136, 9, 9),">
+                <a class="navbar-brand"><h1>Full stack Expense App </h1></a>
+      </header><br>
+    <form  class="navbar-brand"id="form">
+        <label>Amount</label>
+        <input type="number" id="num">
+        <label>Description</label>
+        <input type="text" id="text">
+        <label>Category</label>
+        <select id="op">
+            <option value="trip">Trip</option>
+            <option value="ticket">Ticket</option>
+            <option value="parking">Parking</option>
+            <option value="fuel">Fual</option>
+          </select>
+          <button>Add Expense</button>
+    </form>
+        <ul id="list"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
